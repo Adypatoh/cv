@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Advanced Futuristic Portfolio - Personal Info</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bgCanvas"></canvas>
+  <header>
+    <div class="logo" tabindex="0">PATRICK  MISIANI</div>
+    <nav>
+      <ul>
+        <li><a href="#about" class="nav-link active" aria-current="page">About</a></li>
+        <li><a href="#photo" class="nav-link">Photo</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="toggle-theme" role="switch" aria-checked="false" aria-label="Toggle dark and light theme" title="Toggle dark/light mode">🌙</button>
+  </header>
+
+  <main>
+    <section id="about" tabindex="0" aria-label="Personal information">
+      <div class="avatar" aria-hidden="true"></div>
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm an IT professional with passion for technology infrastructure, system administration, and network security.
+        Skilled in managing and optimizing IT environments to support business goals. I enjoy working with cloud solutions,
+        automation, and helping teams leverage new technology efficiently.
+      </p>
+      <ul aria-label="Personal details">
+        <li>📍 Location: Nairobi City, Kenya</li>
+        <li>🎂 Age: 22</li>
+        <li>🌐 Nationality:  Kenyan</li>
+        <li>❤️ Marital Status: Single</li>
+        <li>📧 Email: Patrickmisiani3927@gmail.com</li>
+        <li>🚀 Passion: IT Infrastructure, Cloud Computing, Cybersecurity </li>
+      </ul>
+    </section>
+
+    <section id="photo" tabindex="0" aria-label="Personal photo">
+      <h2>My Photo</h2>
+      <img src="Adypatoh.jpg" alt="A photo of you" />
+    </section>
+
+    <section id="education" tabindex="0" aria-label="Educational background">
+      <h2>Education</h2>
+      <div class="timeline-container">
+        <div class="timeline-item" aria-label="Master degree in Information Technology">
+          <h3>Institute of Software Technology</h3>
+          <div class="subheading">Certificate in cyber security</div>
+          <div class="date">2023 - 2024</div>
+          <p>Specialized in network security, cloud computing, and IT infrastructure management, programming.</p>
+        </div>
+        <div class="timeline-item" aria-label="Bachelor degree in Computer Science">
+          <h3>Kenya Certificate of Secondary Education</h3>
+          <div class="subheading">Moteiribe high school</div>
+          <div class="date">2018 - 2021</div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="work" tabindex="0" aria-label="Work experience">
+      <h2>Work Experience</h2>
+      <div class="timeline-container">
+        <div class="timeline-item" aria-label="IT Specialist at Tech Solutions">
+          <h3>Sales clerk</h3>
+          <div class="subheading">Mr. Green Africa.</div>
+          <div class="date">2022 - Present</div>
+          <p>Co ordinate sales and keep sales data.</p>
+        </div>
+        <div class="timeline-item" aria-label="Junior Network Administrator at NetSecure">
+          <h3>Junior Network Administrator</h3>
+          <div class="subheading">Adypatoh Ltd.</div>
+          <div class="date">2023 - 2025</div>
+          <p>Am a network adminstrator i supply wifi accross my home area .</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" tabindex="0" aria-label="Skills and proficiencies">
+      <h2>Skills</h2>
+      <div class="skill-badge" title="Network Administration">Network Admin</div>
+      <div class="skill-badge" title="System Administration">SysAdmin</div>
+      <div class="skill-badge" title="Cloud Computing">Cloud</div>
+      <div class="skill-badge" title="Cybersecurity">Cybersecurity</div>
+      <div class="skill-badge" title="Linux Server Management">Linux</div>
+      <div class="skill-badge" title="Scripting and Automation">Scripting</div>
+      <div class="skill-badge" title="Virtualization">Virtualization</div>
+      <div class="skill-badge" title="IT Support">Support</div>
+    </section>
+
+    <section id="projects" tabindex="0" aria-label="Projects and portfolio">
+      <h2>Projects</h2>
+      <div class="project-item" tabindex="0">
+        <div class="project-title">Made a website for our church</div>
+        <div class="project-desc">
+          I made an interactive website for our church,the current website had alot of bugs and lacked transitions,this made it look boring and am glad i changed that
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="contact" tabindex="0" aria-label="Contact information and social profiles">
+      <h2>Contact</h2>
+      <a href="Patrickmisiani3927@gmail.com" aria-label="Email Me" title="Email Me">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M2,6 L22,6 L22,18 L2,18 L2,6 Z M20,8 L12,13 L4,8" stroke="none" fill="currentColor"></path>
+        </svg>
+      </a>
+      <a href="https://github.com/Adypatoh" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" title="GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M12 0.297c-6.63 0-12 5.373-12 12 0 5.302 
+          3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 
+          0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61 
+          -.546-1.387-1.333-1.757-1.333-1.757-1.09-.744.083-.729.083-.729 
+          1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998 
+          .108-.776.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 
+          0-1.31.468-2.38 1.236-3.22-.124-.303-.535-1.523.117-3.176 
+          0 0 1.008-.322 3.3 1.23a11.5 11.5 0 0 1 3-.404c1.02.005 2.047.138 3 
+          .404 2.28-1.552 3.285-1.23 3.285-1.23.653 1.653.243 2.873.12 3.176 
+          .77.84 1.235 1.91 1.235 3.22 0 4.61-2.804 5.625-5.476 5.92.43.37.823 1.096.823 2.21 
+          0 1.595-.015 2.877-.015 3.27 0 .315.21.695.825.577C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+        </svg>
+      </a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" title="LinkedIn">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.024-3.037-1.852-3.037 
+          -1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.049 
+          c.476-.9 1.637-1.852 3.368-1.852 3.602 0 4.268 2.369 4.268 5.455v6.288zM5.337 
+          7.433c-1.144 0-2.07-.926-2.07-2.07 0-1.144.926-2.07 2.07-2.07 
+          1.144 0 2.07.926 2.07 2.07 0 1.144-.926 2.07-2.07 2.07zm1.777 13.019H3.56V9h3.554v11.452zM22.225 
+          0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24h20.451c.978 
+          0 1.778-.774 1.778-1.729V1.729C24 .774 23.203 0 22.225 0z"/>
+        </svg>
+      </a>
+    </section>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
 
